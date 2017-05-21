@@ -8,6 +8,7 @@ void setup() {
 
 void loop() {
 	for (int i=0; i < 1024; i++){ 
-		analogWrite(OUTPUT_PIN, i); delay(100);
+		analogWrite(OUTPUT_PIN, i); 
+		delay(100);
 	}
 }
